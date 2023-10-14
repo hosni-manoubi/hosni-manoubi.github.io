@@ -248,12 +248,19 @@ footer{
     font-size: 12px;
     font-weight: 500;
 }
-
+#competence{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
 .sectionTitre{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    width: 100%;
 }
 
 h2{
@@ -281,10 +288,10 @@ h2 .trait{
 
 .cards{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 35px;
     margin-top: 20px;
+    width: 86%;
 }
 
 .card{
