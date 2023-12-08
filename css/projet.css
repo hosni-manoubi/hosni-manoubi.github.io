@@ -1,0 +1,172 @@
+.banniereProjet{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) ,url("../images/bnrProjet.jpg");
+    width: 100%;
+    height: 495px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.title p{
+    font-size: 55px;
+    font-weight: 900;
+    color: white;
+    text-shadow: #fff 1px 1px 3px;
+    margin-bottom: 30px;
+}
+.presentationProjet{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.textPresentation{
+    font-size: 17px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.sectionTitre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+h2{
+    margin:0;
+    padding:0;
+    text-align:center;
+    position:relative;
+    font-weight: 900;
+    font-size: 25px;
+}
+h2 .trait{
+    background-color:#fff;
+    padding:0 10px;
+}
+
+.titleTrait{
+    border-bottom:1px solid #000;
+    margin-bottom:30px;
+    width: 86%;
+}
+.titleTrait .trait{
+    position: relative;
+    top: 15px;
+}
+.link{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.containerSom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    width: 86%;
+}
+
+.cardSom{
+    border-radius: 20px;
+    width: 570px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(4, 0, 67);
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    position: relative;
+}
+.cardSom p{
+   color: white;
+   font-size: 15px;
+   padding-bottom: 0;
+   margin-bottom: 0;
+   padding-top: 0;
+   margin-top: 0;
+   
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#partie1, #partie2, #partie3, #partie4, #partie5, #partie6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap:  50px;
+
+}
+.cardProjets{
+    display: flex;
+    border: solid 1px;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.imgPrjct{
+    width: 25%;
+    height: 90%;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.imgPrjct img{
+    width: 100%;
+    height: 100%;
+}
+.txtProject{
+    width: 75%;
+    padding-left: 20px;
+    height: 100%;
+}
+.titlePrjt{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.textePrjct{
+    font-size: 14px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.btnPrjt{
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    color: white;
+    
+}
+
+.ancre{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+    margin-right: -2.5em;
+}
+
+.up{
+    width: 45px;
+    height: 45px;
+}
