@@ -41,18 +41,20 @@
     font-size: 17px;
     padding-top: 0;
     margin-top: 0;
+    text-align: center;
 }
 
 .btsSioContainer{
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 30px;
 }
 
 .descriptionSio{
-    width: 50%;
+    width: 60%;
     height: 100%;
     padding-left: 20px;
 }
@@ -108,9 +110,10 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
+    
 }
 .imageSlam{
-    width: 35%;
+    width: 40%;
     height: 100%;
     margin-left: 20px;
     
@@ -122,9 +125,8 @@
 }
 
 .descriptionSioBIS{
-    width: 50%;
+    width: 60%;
     height: 100%;
-    margin-right: 190px;
 
 }
 
@@ -191,4 +193,79 @@ button{
     width: 45px;
     height: 45px;
     transform: rotate(-120deg);
+}
+
+@media screen and (max-width: 800px){
+   
+    .title p{
+        font-size: 50px;
+    }
+    .textPresentation{
+        font-size: 15px;
+    }
+    .button{
+        width: 190px;
+        height: 45px;
+    }
+    .button a{
+        font-size: 13px;
+    }
+    
+
+}
+
+@media screen and (max-width: 500px){
+   
+    .title p{
+        font-size: 45px;
+    }
+    .textPresentation{
+        font-size: 13px;
+    }
+    .button{
+        width: 185px;
+        height: 40px;
+    }
+    .button a{
+        font-size: 12px;
+    }
+    
+
+}
+
+@media screen and (max-width: 1150px){
+    .btsSioContainer{
+        align-items: flex-end;
+    }
+   
+    .descriptionSio p{
+        font-size: 15px;    
+    }
+    .descriptionSio ul li{
+        font-size: 15px;
+    }
+    .descriptionSioBIS p{
+        font-size: 15px;
+     
+    }
+
+    
+    
+}
+@media screen and (max-width: 900px){
+    .imageSio{
+      display: none;
+    }
+    .descriptionSio{
+        width: 100%;    
+    }
+    .imageSlam{
+        display: none;
+    }
+
+    .descriptionSioBIS{
+        width: 100%;    
+        margin-left: 20px;
+    }
+    
 }
