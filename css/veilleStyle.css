@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 80%;
+    width: 95%;
 }
 .title{
     font-size: 55px;
@@ -38,15 +38,15 @@
     align-items: center;
     margin-top: 30px;
     width: 86%;
+    gap: 50px;
 }
 .cardContainer{
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 370px;
     height: 370px;
     border: solid 2px;
     border-radius: 20px;
-    margin-bottom: 80px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     position: relative;
 }
@@ -97,6 +97,7 @@
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     position: relative;
+    
 }
 .link{
     position: absolute;
@@ -104,4 +105,51 @@
     bottom: 0;
     left: 0;
     width: 100%;
+}
+
+@media screen and (max-width: 1025px) {
+    .title{
+        font-size: 45px;
+    }
+    
+    .texteVeille{
+        font-size: 18px;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    .title{
+        font-size: 40px;
+    }
+    .texteVeille{
+        font-size: 16px;
+    }
+    
+}
+@media screen and (max-width: 620px) {
+    .title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .texteVeille{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .cardsVeille{
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+   
+.titleCard{
+    font-size: 14px;
+}
+.article{
+    font-size: 12px;
+}
+
 }
